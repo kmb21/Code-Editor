@@ -2,6 +2,8 @@
 
 A modern, feature-rich code editor built with React, TypeScript, and Tailwind CSS. This project aims to provide developers with an intelligent coding environment that combines powerful editing capabilities with AI assistance.
 
+![AI-Powered Code Editor Demo](https://github.com/user-attachments/assets/7502aa4a-9f2c-40ef-a1ee-34a15201b1c4)
+
 ## 🎯 Project Goals
 
 Our vision is to create a comprehensive code editor that:
@@ -152,5 +154,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Happy Coding! 🚀**
-<img width="1728" height="1117" alt="image" src="https://github.com/user-attachments/assets/7502aa4a-9f2c-40ef-a1ee-34a15201b1c4" />
 
