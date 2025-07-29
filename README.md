@@ -1,73 +1,154 @@
-# Welcome to your Lovable project
+# AI-Powered Code Editor
 
-## Project info
+A modern, feature-rich code editor built with React, TypeScript, and Tailwind CSS. This project aims to provide developers with an intelligent coding environment that combines powerful editing capabilities with AI assistance.
 
-**URL**: https://lovable.dev/projects/7c5b44c5-3453-4e77-9df0-b5e1112ecd76
+## 🎯 Project Goals
 
-## How can I edit this code?
+Our vision is to create a comprehensive code editor that:
 
-There are several ways of editing your application.
+- **Enhances Developer Productivity**: Streamlined interface with intelligent code completion and suggestions
+- **AI-Powered Assistance**: Built-in AI assistant to help with code explanation, debugging, and optimization
+- **Multi-Language Support**: Support for popular programming languages with syntax highlighting and language-specific features
+- **Modern UI/UX**: Clean, intuitive interface inspired by popular code editors like VS Code
+- **Extensible Architecture**: Easy to extend with new languages, themes, and features
 
-**Use Lovable**
+## 🚀 Planned Language Support
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7c5b44c5-3453-4e77-9df0-b5e1112ecd76) and start prompting.
+We're working on adding support for the following programming languages:
 
-Changes made via Lovable will be committed automatically to this repo.
+### Currently Supported
+- **JavaScript/TypeScript** - Full support with syntax highlighting and IntelliSense
+- **HTML/CSS** - Web development essentials
+- **JSON** - Configuration and data format support
 
-**Use your preferred IDE**
+### Coming Soon
+- **Quorum** - Educational programming language with full syntax support
+- **Python** - Popular general-purpose language
+- **Java** - Enterprise and Android development
+- **C++** - Systems programming and game development
+- **Go** - Cloud-native and microservices
+- **Rust** - Systems programming with memory safety
+- **Swift** - iOS and macOS development
+- **Kotlin** - Android and JVM development
+- **PHP** - Web development
+- **Ruby** - Web development and scripting
+- **C#** - .NET development
+- **Scala** - Functional programming on JVM
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Core Editor Features
+- **Syntax Highlighting**: Language-specific code coloring
+- **Line Numbers**: Easy navigation and debugging
+- **Auto-indentation**: Smart code formatting
+- **Bracket Matching**: Visual indicators for code structure
+- **Search and Replace**: Find and modify code efficiently
+- **Multiple Tabs**: Work on multiple files simultaneously
 
-Follow these steps:
+### AI Assistant Features
+- **Code Explanation**: Get detailed explanations of code functionality
+- **Debugging Help**: AI-powered error detection and resolution suggestions
+- **Performance Optimization**: Recommendations for code improvements
+- **Best Practices**: Suggestions for better coding patterns
+- **Quick Actions**: Pre-defined queries for common tasks
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### UI/UX Features
+- **Dark/Light Themes**: Customizable appearance
+- **Responsive Design**: Works on desktop and mobile devices
+- **Keyboard Shortcuts**: Power user productivity features
+- **Accessibility**: Screen reader support and keyboard navigation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Technology Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite for fast development and optimized builds
+- **Styling**: Tailwind CSS for utility-first styling
+- **UI Components**: shadcn/ui for consistent design system
+- **Icons**: Lucide React for beautiful, consistent icons
+- **State Management**: React hooks for local state
+- **Code Highlighting**: Custom syntax highlighting implementation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📦 Installation & Setup
+
+### Prerequisites
+- Node.js 18+ and npm (recommended: use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+### Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_REPOSITORY_URL>
+   cd code-editor
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to see the code editor in action!
+
+### Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint to check code quality
+- `npm run preview` - Preview production build locally
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components (shadcn/ui)
+│   ├── AIAssistant.tsx # AI chat interface
+│   └── CodeEditor.tsx  # Main code editor component
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions and configurations
+├── pages/              # Page components
+└── main.tsx           # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+We welcome contributions! Here's how you can help:
 
-**Use GitHub Codespaces**
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Make your changes** and test thoroughly
+4. **Commit your changes**: `git commit -m 'Add amazing feature'`
+5. **Push to the branch**: `git push origin feature/amazing-feature`
+6. **Open a Pull Request**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Development Guidelines
+- Follow TypeScript best practices
+- Use meaningful commit messages
+- Test your changes before submitting
+- Update documentation for new features
 
-## What technologies are used for this project?
+## 🐛 Known Issues
 
-This project is built with:
+- TypeScript module resolution warnings (non-blocking)
+- Some UI components may need additional styling for mobile devices
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 License
 
-## How can I deploy this project?
+This project is open source and available under the [MIT License](LICENSE).
 
-Simply open [Lovable](https://lovable.dev/projects/7c5b44c5-3453-4e77-9df0-b5e1112ecd76) and click on Share -> Publish.
+## 🙏 Acknowledgments
 
-## Can I connect a custom domain to my Lovable project?
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful component library
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Vite](https://vitejs.dev/) for the fast build tool
+- [React](https://reactjs.org/) for the amazing frontend framework
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Happy Coding! 🚀**
